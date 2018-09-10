@@ -6,5 +6,8 @@ for ($i=0 ; $i <$jumlah ; $i++) {
 	}
 	echo "<br>";
 }
-
+$n = 0;
+for ($i=0; $i <$jumlah ; $i++) { 
+	$n= ($n+2);
+	echo $n;
 ?>
